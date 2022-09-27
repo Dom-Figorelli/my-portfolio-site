@@ -1,120 +1,124 @@
 
 <!DOCTYPE html>
-    <head>
-    <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="mysite.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        <!-- SLICK CODE-->
-        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-        
-        
-        <title>
-            Hello World!
-        </title>
-        
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="mysite.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+
+    <title>
+       André Figorelli - UX.JPEG
+    </title>
+
+
+</head>
+<body>
+
+    <main>
+        <!-- Página 1 -->
+        <section id="s1" class="section1">
+            <h1 class="titulo1">
+                Bem Vindo
+            </h1>
+            <p class="descricao-1">
+                Sou André Figorelli e criei esse site a partir de html, css e js <br />
+                para apresentar minha jornada profissional.
+            </p>
+            <a class="link-nextpage" href="#s2">>>></a>
+        </section>
+
+        <!-- 
+            Fim da Pagina 1 
+        -->
+
+        <!--
+        Página 2 
+        -->
+
+
+        <section id="s2" class="section2">
             
-        
-        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
-        
-        
-        <script type="text/javascript">
-        $(document).ready(function(){
-            $('.intro-jobs').slick({
-                lazyLoad: 'ondemand',
-                dots:true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite:true,
-                arrow:true,
-                autoplay: false,
-                autoplaySpeed: 1000,
+            <div class="grid1-item grid1-0">
+
+                <!-- breadcrumb -->
+                <ul class="breadcrumb">
+                    <li><a href="#s1">Page 1</a></li>
+                    <li><a href="#s2">Page 2</a></li>
+                </ul>
+                <!-- breadcrumb -->
+
+            </div>
+            
+            <div class="grid1-item grid1-1">
+
                 
+                <h2>SOBRE</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales risus a ornare tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi finibus odio tortor, sed accumsan sapien placerat vitae. Fusce quis feugiat neque. Nulla feugiat scelerisque orci, vel faucibus leo consequat vitae. Donec nisi dolor, aliquam ut nisi at, consequat convallis tortor. Aenean congue diam viverra urna lobortis sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut molestie placerat magna vitae lobortis. In eget pellentesque ex. Pellentesque in facilisis ligula, quis faucibus ex. Praesent ex ligula, ullamcorper vitae urna commodo, porttitor dignissim nunc.
+                </p>
+
+            </div>
+            
+            <div class="grid1-item grid1-2">
+
                 
-            });
-        });
-        </script>
-    </head>
-    <body>
-        <div class="header">
-            <div class="header-line1">
-                <div class="logo">
-                    <img class="logo-img" src="logo.png"/>
-                </div>
-                <h2 class="titulo-header" alt="primeiro título">
-                    <span>FIGORELLI.ART & JPEG.INE</span>
+                <img width="470" height="421" src="Exports from Figma/Imaginarium.png" />
+
+            </div>
+            
+            <div class="grid1-item grid1-3">
+
+               
+                <img src="Exports from Figma/ddwb.png" />
+                <img src="Exports from Figma/saga.png" />
+
+            </div>
+            
+            <div class="grid1-item grid1-4">
+
+                <h2>
+                    <a class="link-nextpage" href="#s2">>>></a>
                 </h2>
 
             </div>
-            <div class="texto header-line2">
-                <ul class="menu-navegation-top">
-                    <li class="link-header"> 
-                        <a href="#contato">CONTATO</a>
-                    </li >
-                    <span class="separador"> | </span>
-                    <li class="link-header">
-                        <a href="#meus-trabalhos">MEUS TRABALHOS</a>
-                    </li>
-                    <span class="separador"> | </span>
-                    <li class="link-header">
-                        <a href="#">CURRÍCULO</a>
-                    </li>
-                </ul>
-                
-            </div>
-                
-            </div>
-        <main>
-            <div class="intro texto">
-                <div class="intro-header">
-                <h1 class="texto titulo1" alt="primeiro titulo">
-                    Hello guys.
-                </h1>
-                <p>
-                    Thanks for spend your time seeing my work!
-                </p>
-                </div>
-                
-                
-                
-                <div class="intro-jobs">
-                <div><img id="img1" src="img-trampo1.png"/></div>
-                <div><img id="img2" src="img-trampo1.png"/></div>
-                <div><img id="img3" src="img-trampo1.png"/></div>
-                <div><img id="img3" src="img-trampo1.png"/></div>
-                <div><img id="img3" src="img-trampo1.png"/></div>
-                <div><img id="img3" src="img-trampo1.png"/></div>
-                    
-                </div>
-                <div class="botao-ver-mais">
-                    <p class="b1-itens">
-                    VER MAIS
-                </p>
-                <a class="b1-itens" href="#meus-trabalhos" class="button-intro">
-                    <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>
-                </a>
-                </div>
-            </div>
-            <div class="segunda-tela" id="meus-trabalhos">
-             <h2>MEUS TRABALHOS</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis mollis dolor. Nullam ut elit euismod, consequat mauris vel, tempus odio. Sed iaculis, felis ac congue aliquet, ipsum lorem pellentesque ante, condimentum hendrerit arcu nisi ut massa. Curabitur malesuada ut urna non aliquet. Donec ornare, diam a venenatis tempus, augue nulla fermentum libero, ut varius sapien ex quis felis. In vestibulum massa quis ornare pulvinar. Pellentesque ut egestas mi. Cras luctus turpis sed nunc ultricies, nec imperdiet tellus bibendum. In vitae diam pretium neque lacinia bibendum non quis neque.</p>
-            </div>
-            <div class="terceira-tela" id="contato">
-             <h2>CONTATO</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis mollis dolor. Nullam ut elit euismod, consequat mauris vel, tempus odio. Sed iaculis, felis ac congue aliquet, ipsum lorem pellentesque ante, condimentum hendrerit arcu nisi ut massa. Curabitur malesuada ut urna non aliquet. Donec ornare, diam a venenatis tempus, augue nulla fermentum libero, ut varius sapien ex quis felis. In vestibulum massa quis ornare pulvinar. Pellentesque ut egestas mi. Cras luctus turpis sed nunc ultricies, nec imperdiet tellus bibendum. In vitae diam pretium neque lacinia bibendum non quis neque.</p>
-            </div>
             
-        </main>
-    
-         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        
-    
-        
-    </body>
-    
+        </section>
+
+        <!--
+        Fim página 2
+        -->
+
+        <section id="s3" class="section3">
+            <!-- breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="#s1">Page 1</a></li>
+                <li><a href="#s2">Page 2</a></li>
+                <li><a href="#s3">Page 3</a></li>
+                
+            </ul>
+            <!-- breadcrumb -->
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+</body>
+
 </html>
+
+
+
+<!-- <nav class="navigation-menu">
+    <a href="index.html">Início</a>
+    <a href="projetos.html">Projetos</a>
+    <a href="contato.html">Contato</a>
+</nav>-->
