@@ -3,15 +3,32 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="mysite.css" />
+    <link href="myscript.js" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
 
+    <script>
+        
+        /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+        function showdesc(){
+            
+            document.getElementById("desc-img1-id").style.display = "block";
+            document.getElementById("desc-img1-id").style.transition = "0.7s";
+            
+        }
+        function fechapopup() {
 
+            document.getElementById("desc-img1-id").style.display = "none";
+
+        }
+        
+    </script>
     <title>
-       André Figorelli - UX.JPEG
+        André Figorelli - UX.JPEG
     </title>
 
 
@@ -64,17 +81,36 @@
             </div>
             
             <div class="grid1-item grid1-2">
+                <!-- LINK DE DESCRIÇÃO-->
+                <a href="#s2" id="btn-desc" onclick="showdesc()"> 
+                    <img class="img-img" width="470" height="421" src="Exports from Figma/Imaginarium.png" />
+                </a>
+           
+                <section href="#s2" id="desc-img1-id" class="img-desc">
+                    <div class="img-desc-top">
+                        <h2>TITULO</h2>
+                        <button class="btn-fecha-popup" onclick="fechapopup()">x</button>
+                    </div>
+                    <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales risus a ornare tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi finibus odio tortor, sed accumsan sapien placerat vitae. Fusce quis feugiat neque. Nulla feugiat scelerisque orci, vel faucibus leo consequat vitae. Donec nisi dolor, aliquam ut nisi at, consequat convallis tortor. Aenean congue diam viverra urna lobortis sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut molestie placerat magna vitae lobortis. In eget pellentesque ex. Pellentesque in facilisis ligula, quis faucibus ex. Praesent ex ligula, ullamcorper vitae urna commodo, porttitor dignissim nunc.</p>
 
-                
-                <img width="470" height="421" src="Exports from Figma/Imaginarium.png" />
 
+                </section>
             </div>
             
             <div class="grid1-item grid1-3">
 
-               
-                <img src="Exports from Figma/ddwb.png" />
-                <img src="Exports from Figma/saga.png" />
+                
+                    <a href="#">
+                        <img class="img-ddwb" src="Exports from Figma/ddwb.png" />
+                    </a>
+
+                
+                
+                
+                    <a href="#">
+                        <img class="img-saga" src="Exports from Figma/saga.png" />
+                    </a>
+                
 
             </div>
             
@@ -102,7 +138,7 @@
 
                 </ul>
                 <!-- breadcrumb -->
-            </divgrid1-item>
+            </div>
         </section>
 
 
