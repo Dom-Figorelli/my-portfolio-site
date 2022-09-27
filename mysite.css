@@ -2,7 +2,7 @@
 
 body {
     font-family: Montserrat;
-    letter-spacing: .2rem;
+    
     margin: 0;
     background-color: #323030;
     height: 4000px;
@@ -35,7 +35,7 @@ header {
     color: #FFA800;
 }
 .descricao-1 {
-    color: #dceff1;
+    color: white;
 }
 .link-nextpage {
     text-decoration: none;
@@ -60,7 +60,7 @@ header {
     grid-column: 1 / span 3
 }
 
-.grid1-0 {
+.grid1-0{
     grid-column: 1 / span 3;
     padding: 5rem 5rem 0rem 5rem;
 }
@@ -120,7 +120,7 @@ ul.breadcrumb{
     }
     ul.breadcrumb li {
         display: inline;
-        font-size: 18px;
+        font-size: 10pt;
     }
         ul.breadcrumb li + li:before {
             text-decoration:none;
@@ -128,6 +128,10 @@ ul.breadcrumb{
             color: #858585;
             content: "\003E";
         }
+.grid2-0 {
+    grid-column: 1 / span 3;
+    padding: 5rem 5rem 0rem 5rem;
+}
 
 
 
